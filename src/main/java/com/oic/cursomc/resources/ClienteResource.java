@@ -11,7 +11,7 @@ import com.oic.cursomc.domain.Cliente;
 import com.oic.cursomc.services.ClienteService;
 
 @RestController
-@RequestMapping(value="/categorias")
+@RequestMapping(value="/cliente")
 public class ClienteResource {
 	
 	@Autowired
