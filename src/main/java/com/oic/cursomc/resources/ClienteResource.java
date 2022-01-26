@@ -23,7 +23,7 @@ import com.oic.cursomc.dto.ClienteNewDTO;
 import com.oic.cursomc.services.ClienteService;
 
 @RestController
-@RequestMapping(value="/cliente")
+@RequestMapping(value="/clientes")
 public class ClienteResource {
 	
 	@Autowired
