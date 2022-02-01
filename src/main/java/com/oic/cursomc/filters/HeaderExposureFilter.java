@@ -20,7 +20,7 @@ public class HeaderExposureFilter implements Filter{
 		
 		HttpServletResponse res = (HttpServletResponse) response;
 		res.addHeader("acess-controll-expose-headers", "location");
-		chain.doFilter(request, res);
+		chain.doFilter(request, response);
 	}
 
 }

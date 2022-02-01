@@ -13,8 +13,8 @@ public class CidadeService {
 	
 	@Autowired
 	private CidadeRepository repo;
-	
-	public List<Cidade> findByEstado(Integer estadoId){
+
+	public List<Cidade> findByEstado(Integer estadoId) {
 		return repo.findCidades(estadoId);
 	}
 }
